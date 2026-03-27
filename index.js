@@ -9,7 +9,7 @@ const pino = require('pino')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
 const chalk = require('chalk')
-const { smsg } = require('./test/chatHandler') // path එක ඔයාගේ base එකට අනුව පරීක්ෂා කරන්න
+const { smsg } = require('./chatHandler') // path එක ඔයාගේ base එකට අනුව පරීක්ෂා කරන්න
 
 async function startSenuraMD() {
     // --- Session ID එක GitHub Secrets වලින් ලබා ගැනීම ---
