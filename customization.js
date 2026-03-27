@@ -12,8 +12,8 @@ global.APIKeys = {
 
 // Bot Details
 global.owner = ['947xxxxxxxx'] // Oyaage number eka methana danna (Ex: 94712345678)
-global.premium = ['947xxxxxxxx']
-global.ownernumber = '947xxxxxxxx'
+global.premium = ['94750433655']
+global.ownernumber = '94750433655'
 global.ownername = 'Senura'
 global.botname = 'Senura MD'
 global.footer = '© Senura MD 2024'
@@ -23,7 +23,7 @@ global.sc = 'https://github.com/senura/Senura-MD'
 global.myweb = 'https://youtube.com'
 global.packname = 'Senura MD Sticker Pack'
 global.author = 'Senura'
-global.sessionName = 'session'
+global.sessionName = 'KEY_94750433655_1774583629244'
 global.prefa = ['','!','.',',','🐤','🗿']
 global.sp = '⭔'
 
