@@ -1,0 +1,24 @@
+name: Senura MD CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Start Senura MD
+        run: npm start
